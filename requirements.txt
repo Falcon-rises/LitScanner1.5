@@ -5,6 +5,8 @@ pydantic
 celery[redis]
 redis
 requests
+fastapi
+uvicorn
 sentence-transformers
 numpy
 scikit-learn
