@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "index.py", "use": "@vercel/python" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "index.py" }
-  ],
   "env": {
     "PYTHON_VERSION": "3.11"
-  }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.py"
+    }
+  ]
 }
