@@ -5,6 +5,8 @@
   ],
   "routes": [
     { "src": "/(.*)", "dest": "index.py" }
-  ]
+  ],
+  "env": {
+    "PYTHON_VERSION": "3.11"
+  }
 }
-
