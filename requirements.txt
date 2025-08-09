@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+httpx
+pydantic
+celery[redis]
+redis
+requests
+sentence-transformers
+numpy
+scikit-learn
+python-dotenv
